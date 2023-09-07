@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    background-image: url('/images/paulina-milde-jachowska-kZXIFK1uSTk-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+
+
+
+button {
+    margin: 10px;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #03e9f4;
+    background-color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+    background-color: #03e9f4;
+    color: #000;
+}
+
+#result {
+    font-size: 1.2em;
+    color: #fff;
+    animation: slide 2s linear infinite;
+    width: auto;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    color: #fff;
+   padding-top: 0;
+   margin-bottom: 0;
+}
+
+
+.navbar, .wrapper {
+    text-align: center;
+    color: transparent;
+    font-size: 36px;
+}
+
+.neon-wrapper {
+    display: inline-block;
+    position: relative;
+    font-family: 'Arial', sans-serif;
+    text-transform: uppercase;
+}
+
+.txt {
+    font-size: 36px;
+    font-weight: bold;
+    background: linear-gradient(45deg, 
+    red,orange,yellow, green,blue, indigo, violet, purple
+    );
+    background-size: 200% 200%;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: rainbow 3s linear infinite;
+}
+
+.gradient {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: 200% 200%;
+    animation: gradient 3s linear infinite;
+}
+
+@keyframes rainbow {
+    0% {
+        background-position: 0 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+p{
+    color:white
+}
